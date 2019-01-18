@@ -187,7 +187,7 @@ p {
   justify-content: center;
   justify-content: space-evenly;
   width: 40%;
-  border: 1px solid red;
+  margin: 20px 0 10px;
 }
 .nav-container .nav-bar a {
   text-decoration: none;
