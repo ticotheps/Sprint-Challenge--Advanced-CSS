@@ -166,6 +166,16 @@ p {
     width: 100%;
   }
 }
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F6F6;
+  max-width: 1024px;
+  width: 100%;
+}
+.nav-container h1 {
+  font-size: 4rem;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
