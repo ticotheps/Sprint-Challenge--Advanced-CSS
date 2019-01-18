@@ -1,1 +1,40 @@
 // Mixins Here
+
+// Flex-Box Essentials
+.flex-box() {
+    display: flex;
+}
+
+.flex-column() {
+    flex-direction: column;
+}
+
+.flex-justify-center() {
+    justify-content: center;
+}
+
+.flex-align-center() {
+    align-items: center;
+}
+
+.flex-space-between() {
+    justify-content: space-between;
+}
+
+.flex-space-evenly() {
+    justify-content: space-evenly;
+}
+
+
+
+// Parametric Mixins in here
+
+// .custom-btn(black, white);
+.custom-btn(@btn-color, @btn-background) {
+    border-radius: 10px;
+    font-size: 2rem;
+    text-align: center;
+    color: @btn-color;
+    background-color: @btn-background;
+    padding: 10px 20px;
+  }
