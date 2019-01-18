@@ -169,7 +169,6 @@ p {
   .container {
     max-width: 500px;
     width: 100%;
-    border: 1px solid red;
   }
 }
 .nav-container {
@@ -272,6 +271,11 @@ footer {
 }
 .home .visit-planets p {
   margin-top: 13px;
+}
+@media (max-width: 500px) {
+  .home .visit-planets {
+    margin-bottom: 20px;
+  }
 }
 .home .walk {
   margin-top: 60px;
