@@ -243,6 +243,20 @@ footer {
     width: 90%;
   }
 }
+@media (max-width: 500px) {
+  .home .space-images .sky {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .home .space-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+  }
+}
 .home .visit-planets {
   padding: 15px;
 }
