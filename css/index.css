@@ -178,6 +178,7 @@ p {
   background-color: #F6F6F6;
   max-width: 1024px;
   width: 100%;
+  padding-top: 15px;
 }
 .nav-container h1 {
   font-size: 4rem;
