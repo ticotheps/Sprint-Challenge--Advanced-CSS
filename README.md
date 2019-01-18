@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    The main two differences between an adaptive website and a fully responsive website are: (1) an adaptive website can be deployed a lot quicker than a fully responsive website, and (2) a fully responsive website uses responsive units (i.e. - rem) whereas an adaptive website uses mostly hard-coded pixels as units.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    The phrase 'mobile first' refers to the idea that you must design a website's accessibility and responsiveness with the mobile users in mind before catering to the desktop users. This difference can be manifested in the use of @media queries with the "min-width" property for mobile-first designs vs. the use of @media queries with the "max-width" property for the desktop-first designs.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    This allows us to create a conversion of 10px (in OUR code) to equal 16px (at the browswer's "medium" font setting). This makes it easier to use responsive units (i.e. - rem) because it allows for easier conversions without use of a calculator.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    I would tell them that preprocessing is analagous to getting your FIRST car after you've been accustomed to riding a bicycle everywhere. Preprocessing is essentially a tool that allows you to compartmentalize your styles into individual files that improve your organization AND your ability to write maintainable code.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    My favorite concept in preprocessing is LESS ("LESS is more") because it is a HUGE productivity-hack that improves organization for OCDers like myself. The concept that gave me the most trouble was appropriate times for use of the parentheses after your mixins. However, my peers in my PM group were able to clarify that concept for me!
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
