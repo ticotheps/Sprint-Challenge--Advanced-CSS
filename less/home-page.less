@@ -60,6 +60,11 @@
       .btn {
         .custom-btn(@porcelain, @btn-bg-color);
         .ubuntu-font;
+
+        &:hover {
+          .custom-btn(@btn-bg-color, @porcelain);
+          cursor: pointer;
+        }
       }
     }
 

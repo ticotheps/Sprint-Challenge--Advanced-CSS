@@ -227,6 +227,15 @@ footer {
   padding: 5px 15px;
   font-family: 'Ubuntu', sans-serif;
 }
+.home .walk .walk-text .btn:hover {
+  border-radius: 5px;
+  font-size: 2rem;
+  text-align: center;
+  color: #22283A;
+  background-color: #F6F7F8;
+  padding: 5px 15px;
+  cursor: pointer;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
