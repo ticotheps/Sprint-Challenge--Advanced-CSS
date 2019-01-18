@@ -301,6 +301,11 @@ footer {
   padding: 5px 15px;
   cursor: pointer;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text {
+    order: 1;
+  }
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -312,6 +317,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-img {
+    order: 0;
     max-width: 500px;
     width: 90%;
   }
