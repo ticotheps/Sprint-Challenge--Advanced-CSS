@@ -169,6 +169,7 @@ p {
   .container {
     max-width: 500px;
     width: 100%;
+    border: 1px solid red;
   }
 }
 .nav-container {
@@ -210,6 +211,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 500px) {
+  footer {
+    width: 100%;
+  }
 }
 .home .intro img {
   border-radius: 5px;
@@ -302,8 +308,16 @@ footer {
   cursor: pointer;
 }
 @media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+    padding: 20px 0;
+  }
+}
+@media (max-width: 500px) {
   .home .walk .walk-text {
     order: 1;
+    width: 90%;
+    border: 1px solid green;
   }
 }
 .home .walk .walk-img {
@@ -311,23 +325,35 @@ footer {
   margin-left: 4%;
 }
 .home .walk .walk-img img {
-  width: 100%;
+  width: 90%;
   height: auto;
   border-radius: 10px;
 }
 @media (max-width: 500px) {
   .home .walk .walk-img {
+    display: flex;
+    justify-content: center;
     order: 0;
-    max-width: 500px;
-    width: 90%;
+    width: 100%;
+    border: 1px solid blue;
   }
 }
 @media (max-width: 500px) {
   .home .walk {
-    display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 500px;
+    width: 100%;
+    border: 2px solid purple;
+    padding: 20px 0;
+    margin: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
   }
 }

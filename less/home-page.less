@@ -93,10 +93,17 @@
           .custom-btn(@btn-bg-color, @porcelain);
           cursor: pointer;
         }
+
+        @media @phone {
+          width: 100%;
+          padding: 20px 0;
+        }
       }
 
       @media @phone {
         order: 1;
+        width: 90%;
+        border: 1px solid green;
       }
     }
 
@@ -105,24 +112,35 @@
       margin-left: 4%;
       
       img {
-        width: 100%;
+        width: 90%;
         height: auto;
         border-radius: 10px;
       }
 
       @media @phone {
+        .flex-box;
+        .flex-justify-center;
         order: 0;
-        max-width: 500px;
-        width: 90%;
+        width: 100%;
+        border: 1px solid blue;
       }
     }
 
     @media @phone {
-      .flex-box;
       .flex-column;
       .flex-align-center;
       max-width: 500px;
       width: 100%;
+      border: 2px solid purple;
+      padding: 20px 0;
+      margin: 0px;
     }
+  }
+
+  @media @phone {
+    .flex-box;
+    .flex-column;
+    .flex-align-center;
+    width: 100%;
   }
 }// home
