@@ -317,7 +317,6 @@ footer {
   .home .walk .walk-text {
     order: 1;
     width: 90%;
-    border: 1px solid green;
   }
 }
 .home .walk .walk-img {
@@ -335,7 +334,8 @@ footer {
     justify-content: center;
     order: 0;
     width: 100%;
-    border: 1px solid blue;
+    height: 350px;
+    margin: 0 0 20px;
   }
 }
 @media (max-width: 500px) {
@@ -344,7 +344,6 @@ footer {
     align-items: center;
     max-width: 500px;
     width: 100%;
-    border: 2px solid purple;
     padding: 20px 0;
     margin: 0px;
   }
