@@ -195,6 +195,12 @@ p {
   color: #454A59;
   font-size: 1.6rem;
 }
+@media (max-width: 500px) {
+  .nav-container .nav-bar {
+    max-width: 500px;
+    width: 90%;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
